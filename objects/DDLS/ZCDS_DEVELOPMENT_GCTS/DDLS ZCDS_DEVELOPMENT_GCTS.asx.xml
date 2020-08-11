@@ -11,13 +11,13 @@
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #CHECK
-
+@OData.publish: true
 @EndUserText.label: 'GCTS and CDS testing'
 define view ZCDS_development_GCTS as select from mara as M join marc as MT on M.matnr = MT.matnr  
 { key M.matnr,
 key MT.werks,
 M.aenam,
-MT.ausdt   "This is a test line 
+MT.ausdt    
 }
 /*+[internal] {
 "BASEINFO":
