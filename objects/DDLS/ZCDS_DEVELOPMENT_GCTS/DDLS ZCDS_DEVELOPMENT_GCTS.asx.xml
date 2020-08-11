@@ -17,7 +17,7 @@ define view ZCDS_development_GCTS as select from mara as M join marc as MT on M.
 { key M.matnr,
 key MT.werks,
 M.aenam,
-MT.ausdt    
+MT.ausdt   "This is a test line 
 }
 /*+[internal] {
 "BASEINFO":
