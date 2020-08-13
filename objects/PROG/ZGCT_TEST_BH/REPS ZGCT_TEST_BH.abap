@@ -21,7 +21,6 @@
 *                                                                      *
 *----------------------------------------------------------------------*
 
-REPORT  ZLGCTS_REP_DEMO.
+REPORT  ZGCT_TEST_BH.
 
-*Demo code to update in master branch
-
+write 'test_bh'.

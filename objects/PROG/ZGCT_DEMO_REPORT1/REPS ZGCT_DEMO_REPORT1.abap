@@ -21,7 +21,6 @@
 *                                                                      *
 *----------------------------------------------------------------------*
 
-REPORT  ZLGCTS_REP_DEMO.
+REPORT  ZGCT_DEMO_REPORT1.
 
-*Demo code to update in master branch
-
+write 'Testing with new Package'.

@@ -21,7 +21,6 @@
 *                                                                      *
 *----------------------------------------------------------------------*
 
-REPORT  ZLGCTS_REP_DEMO.
+REPORT  ZGCTS_TEST_POC.
 
-*Demo code to update in master branch
-
+write : 'test repo'.

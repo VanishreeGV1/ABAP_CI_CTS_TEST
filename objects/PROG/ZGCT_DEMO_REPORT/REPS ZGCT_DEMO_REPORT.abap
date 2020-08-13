@@ -21,7 +21,12 @@
 *                                                                      *
 *----------------------------------------------------------------------*
 
-REPORT  ZLGCTS_REP_DEMO.
+REPORT  ZGCT_DEMO_REPORT.
 
-*Demo code to update in master branch
 
+write 'test'.
+write 'abc'.
+
+write 'test1'.   " new code line
+
+write 'test2'.   " new code line 2

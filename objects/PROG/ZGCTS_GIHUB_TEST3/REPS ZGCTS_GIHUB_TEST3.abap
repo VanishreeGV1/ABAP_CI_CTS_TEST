@@ -21,7 +21,8 @@
 *                                                                      *
 *----------------------------------------------------------------------*
 
-REPORT  ZLGCTS_REP_DEMO.
+REPORT  ZGCTS_GIHUB_TEST3.
 
-*Demo code to update in master branch
-
+write: 'Demo test1'.
+Write: 'Demo test2'.
+write: 'Demo test3'.
