@@ -23,9 +23,8 @@
 
 REPORT  zgcts_poc.
 
-WRITE:'poc '.
+write: 'demo 13.08'.
 
-WRITE: 'poc2'.
 
 DATA:lv_matnr TYPE matnr.
 lv_matnr = '000000000100000003'.
@@ -41,7 +40,3 @@ CALL METHOD cls_ref->get_material
     e_maktx = DATA(lv_maktx)
     .
 WRITE:lv_matnr, lv_maktx.
-
-write: 'test manual'.
-
-write: ' test demo'.
